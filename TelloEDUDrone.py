@@ -59,7 +59,7 @@ try:
         sendmsg('command', 0)
         sendmsg('takeoff', 15)
 
-        sendmsg('curve -200 175 0 -200 -50 0 50')
+        sendmsg('curve 120 310 0 50 500 0 60')
 
         sendmsg('land')
 
